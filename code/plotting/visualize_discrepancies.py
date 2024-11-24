@@ -17,7 +17,7 @@ def load_data(file_path):
         st.error(f"File not found: {file_path}")
         return None
 
-def main():
+def visualize():
     st.title("BGG Rank vs. Popularity Rank")
 
     # Load updated dataset
@@ -47,6 +47,3 @@ def main():
             st.pyplot(fig)
         else:
             st.error("Required columns for comparison are missing.")
-
-if __name__ == "__main__":
-    main()

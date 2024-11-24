@@ -32,7 +32,7 @@ def save_updated_dataset(data, file_path):
     data.to_csv(file_path, index=False)
     print(f"Dataset with popularity scores saved to {file_path}")
 
-if __name__ == "__main__":
+def process():
     # File path to the dataset
     data_path = "datasets/raw_data/games_detailed_info.csv"
     updated_data_path = "datasets/processed_data/games_with_popularity.csv"
@@ -56,4 +56,3 @@ if __name__ == "__main__":
 
         # Step 2: Save the updated dataset
         save_updated_dataset(data, updated_data_path)
-
