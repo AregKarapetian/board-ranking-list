@@ -63,17 +63,6 @@ Languages: Python
 Libraries: Pandas, NumPy, Matplotlib, Streamlit
 Dataset Source: BoardGameGeek
 
-### Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a feature branch
-```
-git checkout -b feature-name
-```
-3. Commit your changes and push to your fork.
-4. Submit a pull request.
 
 
   
