@@ -1,5 +1,5 @@
 # Board Games Ranking Project
-Description
+
 The Board Games Ranking Project is a Python-based tool designed to analyze, rank, and compare board games using the BoardGameGeek dataset. The aim is to produce an alternative ranking based on user preferences, including metrics like ownership, wishes, and trades. The project provides insights into how popularity differs from official BoardGameGeek rankings and visualizes these discrepancies.
 
 ## Features
